@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+$fuentePrincipal: 'Quicksand', sans-serif;
+$fuenteSecubdaria: 'Montserrat', sans-serif;
+$colorPrincipal: #BFC9CA;
+$colorSecundario:#E5E8E8;
+$colorBackGroud: #34495E;
+@mixin estiloImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	height: 300px;
+} 
+
+body {
+	background-image: url("../img/fondo2.jpg");
+	background-position:top center;
+	margin: 0px;
+	height: auto;
+}
+
+img {
+  max-width: 100%;
+  margin: 20px;
+}
+
+ol li{
+	font-size: 20px;
+	font-family: $fuentePrincipal;
+	color: $colorPrincipal;
+	letter-spacing: 1px;
+}
+ul li ol li{
+	font-size: 20px;
+	font-family: $fuentePrincipal;
+	color: $colorPrincipal;
+	letter-spacing: 1px;
+}
+
+form{
+	color: $colorPrincipal;
+}
+.novedades__imagenMB{
+	@include estiloImg;
+	
+}
+
+.head__titulo{
+	font-family: $fuentePrincipal;
+	color: $colorPrincipal;
+	letter-spacing: 1px;
+	line-height: 50px;
+	font-size: 40x;
+	background-color: $colorBackGroud;
+	margin: 80px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	border: 10px;
+	padding: auto;
+	border: #F8C471 solid 2px;
+	text-align: center;
+}
+
+.subtitulo__titulo{
+	font-family: $fuenteSecubdaria;
+	color: $colorSecundario;
+	letter-spacing: 1px;
+	line-height: 50px;
+	font-size: 40x;
+	background-color: $colorBackGroud;
+	margin:80px;
+	margin-bottom: 0px;
+	border: 10px;
+	padding: auto;
+	border: #F8C471 solid 2px;
+	text-align: center;
+}
+
+h4{
+	font-family: $fuenteSecubdaria;
+	color: $colorSecundario;
+	letter-spacing: 1px;
+	line-height: 40px;
+	font-size: 30x;
+	background-color: $colorBackGroud;
+	margin:100px;
+	margin-bottom:10px;
+	margin-top: 15px;
+	border: 10px;
+	padding: auto;
+	border: #F8C471 solid 2px;
+	text-align: center;
+}
+
+.head__Texto{
+	font-family: $fuentePrincipal;
+	color: $colorSecundario;
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-size: 15px;
+	background-color: $colorBackGroud;
+	margin:100px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	border: 30px;
+	padding: auto;
+	text-align: center;
+}
+
+header{
+	width: 100%;
+	text-decoration: none;
+}
+
+.caracteristicas__estilos{
+	font-family: $fuentePrincipal;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin: center;
+	color: $colorPrincipal;
+}
+
+.alineacionOlUl {
+	
+	text-align: center;
+	list-style-position: inside;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 200px;
+	margin-right: 200px;
+  }
+
+.alignImgIndex{
+	@include estiloImg;
+}
+
+.gallery__propiedades{
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	height: 300px;
+	width: 350px;
+}
+
+.gallery__nuestrosVehiculos{
+	display: flex;
+	justify-content: center;
+
+	height: 500px;
+	width: 900px;
+}
+
+.navegacion{
+	width: 100%;
+	margin: auto;
+	font-family: $fuentePrincipal;
+	color: $colorPrincipal;
+	letter-spacing: 1px;
+	line-height: 50px;
+	font-size: 40px;
+	text-decoration-style: none;
+}
+
+.menu li{
+	display: inline-block;
+	list-style: none;
+	}
+.menu li a{
+	display: block;
+	position: relative;
+	list-style: none;
+	}
+
+.subMenu{
+	position: absolute;
+	margin: auto;
+	display: none;
+	padding: 10px;
+	list-style: none;
+}
+.subMenu li a{
+	display: block;
+	padding: 10px;
+	list-style: none;
+}
+
+
+#contacto{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#contacto form{
+	display: flex;
+	flex-direction: column;
+}
+
+.galeriaUsados{
+	padding: 25px;
+	border: 15px;
+}
+
+.footer{
+	background: #343A40;
+	padding: 12px;
+	margin: 10px; 
+	font-size: 30px;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.sizeImgNuestosV{
+	width: 300px;
+	height: 200px;
+}
+
+.caracteristicas__table{
+	font-family: $fuenteSecubdaria;
+	color: $colorSecundario;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+-------------
+
+*/
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+   
+  
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .column {
+	float: left;
+	width: 16.66%;
+  }
+  
+  .demo {
+	opacity: 0.6;
+  }
+
+  .demo:hover {
+	opacity: 1;
+  }
