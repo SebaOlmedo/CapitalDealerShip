@@ -5510,19 +5510,19 @@ a.badge-dark:focus, a.badge-dark.focus {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color:#E5E8E8;
 }
 
 .list-group-item-action:active {
   color: #212529;
-  background-color: #e9ecef;
+  background-color: #E5E8E8;
 }
 
 .list-group-item {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #fff;
+  background-color: #34495E;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -5545,7 +5545,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #007bff;
+  background-color:#E5E8E8;;
   border-color: #007bff;
 }
 
@@ -5554,7 +5554,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item + .list-group-item.active {
-  margin-top: -1px;
+  margin-top: 10px;
   border-top-width: 1px;
 }
 
@@ -5574,7 +5574,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-horizontal > .list-group-item.active {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .list-group-horizontal > .list-group-item + .list-group-item {
@@ -5583,7 +5583,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-horizontal > .list-group-item + .list-group-item.active {
-  margin-left: -1px;
+  margin-left: auto;
   border-left-width: 1px;
 }
 
@@ -5634,7 +5634,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-left-width: 0;
   }
   .list-group-horizontal-md > .list-group-item + .list-group-item.active {
-    margin-left: -1px;
+    margin: auto;
     border-left-width: 1px;
   }
 }
@@ -5653,14 +5653,14 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-lg > .list-group-item.active {
-    margin-top: 0;
+    margin-top: 10px;
   }
   .list-group-horizontal-lg > .list-group-item + .list-group-item {
     border-top-width: 1px;
     border-left-width: 0;
   }
   .list-group-horizontal-lg > .list-group-item + .list-group-item.active {
-    margin-left: -1px;
+    margin-left: 200px;
     border-left-width: 1px;
   }
 }
@@ -5679,7 +5679,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-xl > .list-group-item.active {
-    margin-top: 0;
+    margin-top: 10;
   }
   .list-group-horizontal-xl > .list-group-item + .list-group-item {
     border-top-width: 1px;

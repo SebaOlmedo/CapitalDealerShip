@@ -32,7 +32,7 @@
 	</header>
 
 		<main>		
-			
+			<!-- primera info de nuestros V, con h2 y p, cos sus clases -->
 			<div class="Head">
 			
 			<h2 class="head__titulo"> Nuestros Vehiculos </h2>
@@ -40,71 +40,72 @@
 			<p class="head__Texto">Contamos con un stock selecto de alta gama en vehiculos 0km y usados con garantias especiales</p>		
 
 			<h2 class="head__titulo">Galeria de autos</h2>
+	<!-- primera info de nuestros V, con h2 y p, cos sus clases -->
+				<div class="container">
+				<div class="mySlides">
+					<div class="numbertext">1 / 6</div>
+					<img src="img/a3/a31.png" class="gallery__nuestrosVehiculos">
+				</div>
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="img/a3/a31.png" class="gallery__nuestrosVehiculos">
-  </div>
+				<div class="mySlides">
+					<div class="numbertext">2 / 6</div>
+					<img src="img/audi/q51.png" class="gallery__nuestrosVehiculos">
+				</div>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="img/audi/q51.png" class="gallery__nuestrosVehiculos">
-  </div>
+				<div class="mySlides">
+					<div class="numbertext">3 / 6</div>
+					<img src="img/clk/clk1.png" class="gallery__nuestrosVehiculos">
+				</div>
+					
+				<div class="mySlides">
+					<div class="numbertext">4 / 6</div>
+					<img src="img/ford/fr1.png" class="gallery__nuestrosVehiculos">
+				</div>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="img/clk/clk1.png" class="gallery__nuestrosVehiculos">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="img/ford/fr1.png" class="gallery__nuestrosVehiculos">
-  </div>
+				<div class="mySlides">
+					<div class="numbertext">5 / 6</div>
+					<img src="img/mb/MB1.png" class="gallery__nuestrosVehiculos">
+				</div>
+					
+				<div class="mySlides">
+					<div class="numbertext">6 / 6</div>
+					<img src="img/mb/MB2.png" class="gallery__nuestrosVehiculos">
+				</div>
+					
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="img/mb/MB1.png" class="gallery__nuestrosVehiculos">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="img/mb/MB2.png" class="gallery__nuestrosVehiculos">
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
 
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/a3/a31.png" onclick="currentSlide(1)" alt="Audi A1">
-    </div>
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/audi/q51.png" onclick="currentSlide(2)" alt="Audi Q5">
-    </div>
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/clk/clk1.png" onclick="currentSlide(3)" alt="MB CLK">
-    </div>
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/ford/fr1.png" onclick="currentSlide(4)" alt="Ford Ranger">
-    </div>
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/mb/MB1.png" onclick="currentSlide(5)" alt="Mercedes Benz">
-    </div>    
-    <div class="column">
-      <img class="demo cursor gallery__propiedades" src="img/mb/MB2.png" onclick="currentSlide(6)" alt="Mercedes Benz">
-    </div>
-  </div>
-</div>
-			
-				<ol class="alineacionOlUl">
-					<li>Audi A3</li>
-					<li>BMW Serie 2</li>
-					<li>Mercedes Benz Clase A</li>
+				<div class="row">
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/a3/a31.png" onclick="currentSlide(1)" alt="Audi A3">
+					</div>
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/audi/q51.png" onclick="currentSlide(2)" alt="Audi Q5">
+					</div>
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/clk/clk1.png" onclick="currentSlide(3)" alt="MB CLK">
+					</div>
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/ford/fr1.png" onclick="currentSlide(4)" alt="Ford Ranger">
+					</div>
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/mb/MB1.png" onclick="currentSlide(5)" alt="Mercedes Benz">
+					</div>    
+					<div class="column">
+					<img class="demo cursor gallery__propiedades" src="img/mb/MB2.png" onclick="currentSlide(6)" alt="Mercedes Benz">
+					</div>
+				</div>
+				</div>
+			<!-- listado Ok-->
+				<ol class="listado">
+					<li class="listado__OlLi">Audi A3</li>
+					<li class="listado__OlLi">Audi Q5</li>
+					<li class="listado__OlLi">Mercedes Benz CLK</li>
+					<li class="listado__OlLi">Ford Ranger</li>
 				</ol>
 				
 				<div>
@@ -157,16 +158,18 @@
 				</div>
 
 				<h3 class="head__titulo">Vehiculos Usados</h3>
-				<ol class="alineacionOlUl">
-					<li>Audi Q5</li>
-					<li>Ford Ranger					
+				<!--Segundo listado. estino nuevo-->
+				<ol class="listado">
+					<li class="listado__OlLi">Audi Q5 </li>
+					<li class="listado__OlLi">Ford Ranger					
 						<ol>
 							<li>4x4</li>
 							<li>4x2</li>
 						</ol>
 					</li>
+					<li class="listado__OlLi">Mercedes Benz CLK</li>
 					
-					<li>Mercedes Benz CLK</li>
+					
 				</ol>						
 					<section>
 						<h4 class="caracteristicas">Caracteristicas</h4>

@@ -136,7 +136,7 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 15px;
-  height: 300px;
+  height: 250px;
   width: 350px;
 }
 
@@ -239,10 +239,22 @@ header {
   margin-right: auto;
 }
 
-/*
--------------
+.listado__OlLi {
+  padding: .75rem 1.25rem;
+  background-color: #34495E;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  font-family: "Montserrat", sans-serif;
+  color: #E5E8E8;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 150x;
+  margin-left: 100px;
+  margin-right: 700px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
 
-*/
 .next {
   cursor: pointer;
   position: absolute;
