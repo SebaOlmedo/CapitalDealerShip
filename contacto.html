@@ -31,53 +31,52 @@
 		    </ul>
 		</nav>
 	</header>
-	
+	<!-- primera info de la pag, con h2 y p, cos sus clases -->
 	<section class="head">
 		<h2 class="head__titulo">Contacto</h2></div>
 	</section>	
-				<form id= "contacto">
-				<div>
-				
-
-				<fieldset>
-					<div class="responsive">
-					<legend>Datos personales</legend>					
-					<label for="nombreyapellido">Nombre y Apellido</label>
-					<input type="text"> 
-					</div>
-					<label for="telefono">Telefono</label>
-					<input type="text">
+	<!-- formulario de contacto -->
+	<form action="/action_page.php"> 
+		<div class="form-group">
+		<label for="nombreyapellido">Nombre y Apellido</label>
+		  <input type="text" class="form-control"  placeholder="Nombre y Apellido">
+		</div>   
+		<div>
+		<label for="Telefono">Telefono</label>
+		  <input type="text" class="form-control"  placeholder="Nombre y Apellido">
+		</div>  
+		 <div class="form-group">
+		  <label for="email">Email:</label>
+		  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+		</div>
+		<div class="form-group">
+		   <label for="Comentarios">Comentarios</label>
+		  <input type="Comentarios" class="form-control" placeholder="Comentarios">
+		</div>
+	   <div>
+							<label>Seleccione marca de preferencia</label>
+								<select name="Preferencia">
+									<option value="m">Tengo SUBE, dame un credito</option>
+									<option value="p">Mercedes Benz</option>
+									<option value="m">Audi</option>
+									<option value="m">Ford</option>
+									<option value="m">BMW</option>
+									<option value="m">Jaguar</option>
+	
+								</select>
+						</div>
+						<input name="newsletter" type="checkbox">
+						<label for="newsletter">Quiero recibir ofertas y novedades</label>	
+	
 					<div>
-					<label for="email">Email</label>
-					<input type="email"> 
-					</div>
-						<label>Comentarios</label>
-						<textarea name="Comentarios" cols="30" rows="8" placeholder="Ingrese su comentario"></textarea>
-					<div>
-						<label>Seleccione marca de preferencia</label>
-							<select name="Preferencia">
-								<option value="m">Tengo SUBE, dame un credito</option>
-								<option value="p">Mercedes Benz</option>
-								<option value="m">Audi</option>
-								<option value="m">Ford</option>
-								<option value="m">BMW</option>
-								<option value="m">Jaguar</option>
-
-							</select>
-					</div>
-					<input name="newsletter" type="checkbox">
-					<label for="newsletter">Quiero recibir ofertas y novedades</label>	
-
-				<div>
-
-					<input type="submit" name="Enviar Mensaje">
-					<br>								
-					<input type="reset" value="Limpiar el formulario">
-				</div>			
-				</fieldset>
-
-					
-			</form>
+							
+		<div class="form-group form-check">
+		  <label class="form-check-label">
+			<input class="form-check-input" type="checkbox" name="remember"> Remember me
+		  </label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	  </form>
 
 			<footer>
 				<!-- Comienzo del footer, con un nav distinto al anterior, sin logo y con los botones linkeados  -->

@@ -99,6 +99,20 @@ h4 {
   text-align: center;
 }
 
+.formularioContacto {
+  font-family: "Quicksand", sans-serif;
+  color: #5D6D7E;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 15px;
+  margin: 100px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border: 30px;
+  padding: auto;
+  text-align: center;
+}
+
 header {
   width: 100%;
   text-decoration: none;
@@ -237,6 +251,19 @@ header {
   color: #E5E8E8;
   margin-left: auto;
   margin-right: auto;
+}
+
+.wrapping__propiedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .listado__OlLi {
