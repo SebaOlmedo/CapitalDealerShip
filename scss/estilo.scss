@@ -170,16 +170,6 @@ header{
 	
 }
 
-.navegacion{
-	width: 100%;
-	margin: auto;
-	font-family: $fuentePrincipal;
-	color: $colorPrincipal;
-	letter-spacing: 1px;
-	line-height: 50px;
-	font-size: 40px;
-	text-decoration-style: none;
-}
 
 .menu li{
 	display: inline-block;
@@ -269,67 +259,21 @@ header{
 	text-align: center;
 }
 
-.next {
-	cursor: pointer;
-	position: absolute;
-	top: 40%;
-	width: auto;
-	padding: 16px;
-	margin-top: -50px;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-  }
-  
-  .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover,
-  .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-  }
-   
-  
-  .caption-container {
-	text-align: center;
-	background-color: #222;
-	padding: 2px 16px;
-	color: white;
-  }
-  
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-  .column {
-	float: left;
-	width: 16.66%;
-  }
-  
-  .demo {
-	opacity: 0.6;
-  }
-
-  .demo:hover {
-	opacity: 1;
-  }
 
   .flex-container {
 	display: flex;
 	justify-content: center;
 	background-color: none;
+	font-family: $fuenteSecubdaria;
+
   }
   
+  
+  
+
   .flex-container > div {
 	background-color: $colorBackGroud;
-	height: 80px;
+	height: auto;
 	width: auto;
 	margin: 10px;
 	text-align: center;
@@ -340,8 +284,3 @@ header{
   }
 
   
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
