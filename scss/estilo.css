@@ -161,6 +161,9 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 500px;
   width: 900px;
 }
@@ -249,6 +252,10 @@ header {
 .caracteristicas__table {
   font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 30x;
+  background-color: #34495E;
   margin-left: auto;
   margin-right: auto;
 }
@@ -270,7 +277,6 @@ header {
   padding: .75rem 1.25rem;
   background-color: #34495E;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 20px;
@@ -333,5 +339,33 @@ header {
 
 .demo:hover {
   opacity: 1;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+}
+
+.flex-container > div {
+  background-color: #34495E;
+  height: 80px;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
 }
 /*# sourceMappingURL=estilo.css.map */
