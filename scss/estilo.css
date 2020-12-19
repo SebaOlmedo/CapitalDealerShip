@@ -38,8 +38,11 @@ form {
 }
 
 .wrapping__propiedades {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-grid-rows: 300px 300px;
       grid-template-rows: 300px 300px;
   justify-items: center;

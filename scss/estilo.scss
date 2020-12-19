@@ -51,7 +51,8 @@ form{
 
 
 .wrapping__propiedades{
-	display: grid;
+	display: flex;
+	flex-wrap: wrap;
 	grid-template-rows: 300px 300px;
 	justify-items: center;
 }
