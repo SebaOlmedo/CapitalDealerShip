@@ -37,6 +37,14 @@ form {
   height: 300px;
 }
 
+.wrapping__propiedades {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 300px 300px;
+      grid-template-rows: 300px 300px;
+  justify-items: center;
+}
+
 .head__titulo {
   font-family: "Quicksand", sans-serif;
   color: #BFC9CA;
