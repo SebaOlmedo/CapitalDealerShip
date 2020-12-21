@@ -13,16 +13,25 @@ img {
 }
 
 .logo__navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul li {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 ol li {
@@ -47,34 +56,46 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 300px;
+  height: 275px;
 }
 
 .head__titulo {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Quicksand", sans-serif;
   color: #BFC9CA;
   letter-spacing: 1px;
   line-height: 50px;
-  font-size: 40x;
+  font-size: 30px;
   background-color: #34495E;
-  margin: 80px;
-  margin-bottom: 0px;
-  margin-top: 15px;
   border: 10px;
   padding: 10px;
   border: #F8C471 solid 2px;
   text-align: center;
+  min-width: 350px;
 }
 
 .subtitulo__titulo {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 50px;
   font-size: 40px;
   background-color: #34495E;
-  margin: 80px;
-  margin-bottom: 0px;
   border: 10px;
   padding: 10px;
   border: #F8C471 solid 2px;
@@ -82,15 +103,20 @@ form {
 }
 
 h4 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 40px;
   font-size: 30px;
   background-color: #34495E;
-  margin: 100px;
-  margin-bottom: 10px;
-  margin-top: 15px;
   border: 10px;
   padding: 10px;
   border: #F8C471 solid 2px;
@@ -98,15 +124,20 @@ h4 {
 }
 
 .head__Texto {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Quicksand", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 30px;
   font-size: 15px;
   background-color: #34495E;
-  margin: 100px;
-  margin-top: 15px;
-  margin-bottom: 15px;
   border: 30px;
   padding: 10px;
   text-align: center;
@@ -131,20 +162,11 @@ header {
   text-decoration: none;
 }
 
-.alineacionOlUl {
-  text-align: center;
-  list-style-position: inside;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
 .alignImgIndex {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 300px;
+  height: 275px;
 }
 
 .gallery__propiedades {
@@ -206,11 +228,22 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 20px;
+  font-size: 15px;
   background-color: #34495E;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.conteiner {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrapping__propiedades {
@@ -224,28 +257,77 @@ header {
           justify-content: center;
 }
 
-.listado__OlLi {
-  padding: .75rem 1.25rem;
-  background-color: #34495E;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  color: #E5E8E8;
-  letter-spacing: 1px;
-  line-height: 20px;
-  font-size: 15px;
-  margin-left: 100px;
-  margin-right: 700px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  text-align: center;
-}
-
 .container {
   margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .estiloLogo {
   width: 100%;
   max-width: 250px;
   height: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  -webkit-box-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    -webkit-box-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    -webkit-box-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
