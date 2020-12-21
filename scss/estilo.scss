@@ -28,6 +28,12 @@ img {
   margin: 20px;
 }
 
+.logo__navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
 ol li{
 	font-size: 20px;
 	font-family: $fuentePrincipal;
@@ -49,14 +55,6 @@ form{
 	
 }
 
-
-.wrapping__propiedades{
-	display: flex;
-	flex-wrap: wrap;
-	grid-template-rows: 300px 300px;
-	justify-items: center;
-}
-
 .head__titulo{
 	font-family: $fuentePrincipal;
 	color: $colorPrincipal;
@@ -68,7 +66,7 @@ form{
 	margin-bottom: 0px;
 	margin-top: 15px;
 	border: 10px;
-	padding: auto;
+	padding: 10px;
 	border: #F8C471 solid 2px;
 	text-align: center;
 }
@@ -78,12 +76,12 @@ form{
 	color: $colorSecundario;
 	letter-spacing: 1px;
 	line-height: 50px;
-	font-size: 40x;
+	font-size: 40px;
 	background-color: $colorBackGroud;
 	margin:80px;
 	margin-bottom: 0px;
 	border: 10px;
-	padding: auto;
+	padding: 10px;
 	border: #F8C471 solid 2px;
 	text-align: center;
 }
@@ -93,13 +91,13 @@ h4{
 	color: $colorSecundario;
 	letter-spacing: 1px;
 	line-height: 40px;
-	font-size: 30x;
+	font-size: 30px;
 	background-color: $colorBackGroud;
 	margin:100px;
 	margin-bottom:10px;
 	margin-top: 15px;
 	border: 10px;
-	padding: auto;
+	padding: 10px;
 	border: #F8C471 solid 2px;
 	text-align: center;
 }
@@ -113,15 +111,15 @@ h4{
 	background-color: $colorBackGroud;
 	margin:100px;
 	margin-top: 15px;
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 	border: 30px;
-	padding: auto;
+	padding: 10px;
 	text-align: center;
 }
 
 .formularioContacto{
 	font-family: $fuentePrincipal;
-	color: E5E8E8git;
+	color: #E5E8E8;
 	letter-spacing: 1px;
 	line-height: 30px;
 	font-size: 15px;
@@ -129,22 +127,13 @@ h4{
 	margin-top: 15px;
 	margin-bottom: 0px;
 	border: 30px;
-	padding: auto;
+	padding: 10px;
 	text-align: center;
 }
 
 header{
 	width: 100%;
 	text-decoration: none;
-}
-
-.caracteristicas__estilos{
-	font-family: $fuentePrincipal;
-	font-size: 15px;
-	letter-spacing: 1px;
-	line-height: 30px;
-	margin: center;
-	color: $colorPrincipal;
 }
 
 .alineacionOlUl {
@@ -167,40 +156,6 @@ header{
 	height: 250px;
 	width: 350px;
 }
-
-.gallery__nuestrosVehiculos{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 500px;
-	width: 900px; 
-	
-}
-
-
-.menu li{
-	display: inline-block;
-	list-style: none;
-	}
-.menu li a{
-	display: block;
-	position: relative;
-	list-style: none;
-	}
-
-.subMenu{
-	position: absolute;
-	margin: auto;
-	display: none;
-	padding: 10px;
-	list-style: none;
-}
-.subMenu li a{
-	display: block;
-	padding: 10px;
-	list-style: none;
-}
-
 
 #contacto{
 	display: flex;
@@ -237,8 +192,8 @@ header{
 	font-family: $fuenteSecubdaria;
 	color: $colorSecundario;
 	letter-spacing: 1px;
-	line-height: 40px;
-	font-size: 30x;
+	line-height: 30px;
+	font-size: 20px;
 	background-color: $colorBackGroud;
 	margin-left: auto;
 	margin-right: auto;
@@ -246,10 +201,9 @@ header{
 
 .wrapping__propiedades{
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
-
 .listado__OlLi{
 	padding: .75rem 1.25rem;
 	background-color:#34495E;
@@ -257,7 +211,7 @@ header{
 	color: $colorSecundario;
 	letter-spacing: 1px;
 	line-height: 20px;
-	font-size: 150x;
+	font-size: 15px;
 	margin-left:100px;
 	margin-right: 700px;
 	margin-bottom:10px;
@@ -268,24 +222,8 @@ header{
 .container{
 	margin-top: 15px;
 }
-
-  .flex-container {
-	display: flex;
-	justify-content: center;
-	background-color: none;
-	font-family: $fuenteSecubdaria;
-  }
-  
-  .flex-container > div {
-	background-color: $colorBackGroud;
-	height: auto;
-	width: auto;
-	margin: 10px;
-	text-align: center;
-	line-height: 75px;
-	font-size: 30px;
-	color: white;
-	font-family: $fuenteSecubdaria;
-  }
-
-  
+.estiloLogo{
+		width: 100%;
+		max-width: 250px;
+		height: auto;
+}

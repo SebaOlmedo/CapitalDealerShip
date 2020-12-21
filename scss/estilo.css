@@ -12,6 +12,19 @@ img {
   margin: 20px;
 }
 
+.logo__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
 ol li {
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
@@ -37,17 +50,6 @@ form {
   height: 300px;
 }
 
-.wrapping__propiedades {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-grid-rows: 300px 300px;
-      grid-template-rows: 300px 300px;
-  justify-items: center;
-}
-
 .head__titulo {
   font-family: "Quicksand", sans-serif;
   color: #BFC9CA;
@@ -59,7 +61,7 @@ form {
   margin-bottom: 0px;
   margin-top: 15px;
   border: 10px;
-  padding: auto;
+  padding: 10px;
   border: #F8C471 solid 2px;
   text-align: center;
 }
@@ -69,12 +71,12 @@ form {
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 50px;
-  font-size: 40x;
+  font-size: 40px;
   background-color: #34495E;
   margin: 80px;
   margin-bottom: 0px;
   border: 10px;
-  padding: auto;
+  padding: 10px;
   border: #F8C471 solid 2px;
   text-align: center;
 }
@@ -84,13 +86,13 @@ h4 {
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 40px;
-  font-size: 30x;
+  font-size: 30px;
   background-color: #34495E;
   margin: 100px;
   margin-bottom: 10px;
   margin-top: 15px;
   border: 10px;
-  padding: auto;
+  padding: 10px;
   border: #F8C471 solid 2px;
   text-align: center;
 }
@@ -104,15 +106,15 @@ h4 {
   background-color: #34495E;
   margin: 100px;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   border: 30px;
-  padding: auto;
+  padding: 10px;
   text-align: center;
 }
 
 .formularioContacto {
   font-family: "Quicksand", sans-serif;
-  color: E5E8E8git;
+  color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 30px;
   font-size: 15px;
@@ -120,22 +122,13 @@ h4 {
   margin-top: 15px;
   margin-bottom: 0px;
   border: 30px;
-  padding: auto;
+  padding: 10px;
   text-align: center;
 }
 
 header {
   width: 100%;
   text-decoration: none;
-}
-
-.caracteristicas__estilos {
-  font-family: "Quicksand", sans-serif;
-  font-size: 15px;
-  letter-spacing: 1px;
-  line-height: 30px;
-  margin: center;
-  color: #BFC9CA;
 }
 
 .alineacionOlUl {
@@ -163,45 +156,6 @@ header {
   margin: 15px;
   height: 250px;
   width: 350px;
-}
-
-.gallery__nuestrosVehiculos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 500px;
-  width: 900px;
-}
-
-.menu li {
-  display: inline-block;
-  list-style: none;
-}
-
-.menu li a {
-  display: block;
-  position: relative;
-  list-style: none;
-}
-
-.subMenu {
-  position: absolute;
-  margin: auto;
-  display: none;
-  padding: 10px;
-  list-style: none;
-}
-
-.subMenu li a {
-  display: block;
-  padding: 10px;
-  list-style: none;
 }
 
 #contacto {
@@ -252,8 +206,8 @@ header {
   font-family: "Montserrat", sans-serif;
   color: #E5E8E8;
   letter-spacing: 1px;
-  line-height: 40px;
-  font-size: 30x;
+  line-height: 30px;
+  font-size: 20px;
   background-color: #34495E;
   margin-left: auto;
   margin-right: auto;
@@ -263,10 +217,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -279,7 +231,7 @@ header {
   color: #E5E8E8;
   letter-spacing: 1px;
   line-height: 20px;
-  font-size: 150x;
+  font-size: 15px;
   margin-left: 100px;
   margin-right: 700px;
   margin-bottom: 10px;
@@ -291,26 +243,9 @@ header {
   margin-top: 15px;
 }
 
-.flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: none;
-  font-family: "Montserrat", sans-serif;
-}
-
-.flex-container > div {
-  background-color: #34495E;
+.estiloLogo {
+  width: 100%;
+  max-width: 250px;
   height: auto;
-  width: auto;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  color: white;
-  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=estilo.css.map */
