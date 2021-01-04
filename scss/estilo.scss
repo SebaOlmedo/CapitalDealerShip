@@ -278,3 +278,49 @@ header{
 	  max-width: 100%;
 	}
   }
+
+  
+  body {
+	font-family: $fuentePrincipal;
+  }
+  
+  .mobile-container {
+	max-width: 480px;
+	margin: auto;
+	background-color:  red;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+  }
+  
+  .topnav {
+	overflow: hidden;
+	background-color: none;
+	position: relative;
+  }
+  
+  .topnav #myLinks {
+	display: none;
+  }
+  
+  .topnav a {
+	float: left;
+	color:  #BFC9CA;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 22px;
+  }
+  
+  .topnav a.icon {
+	float: right;
+  }
+  
+  .topnav a:hover {
+	background-color: #34495E;
+	color: silver;
+  }
+  
+  .active {
+	background-color: none;
+	color: #BFC9CA;
+  }
